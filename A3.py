@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # Step 1: Load the data
 df = pd.read_excel("Lab Session Data.xlsx", sheet_name="IRCTC Stock Price")
 
-# Convert date column to datetime (assume it's in column A or named 'Date')
+# Convert date column to datetime (assume it's in column A or named 'Date')  
 df['Date'] = pd.to_datetime(df['Date'])
 
 # Extract Day of Week
